@@ -1,0 +1,91 @@
+@charset "utd-8";
+
+ .athiti-regular {
+    font-family: "Athiti", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .prompt-regular {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body{
+    background-color: rgb(128, 65, 2);
+    color: rgb(0, 0, 0);
+  }
+
+  .header{
+    text-align: center;
+    background-color: #ffc2906b;
+  }
+
+  .navigator{
+    background-color: #f7dede;
+    width: 1200px;
+    margin: 0px auto;
+  }
+
+  .menubar{
+    background-color: #f75050;
+    width: 1000px;
+    margin: 0px auto;
+  }
+
+  .ul-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .li-menu {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .li-menu:last-child {
+    border-right: none;
+  }
+  
+  .li-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .li-menu a:hover:not(.active) {
+    background-color: #0075fc;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .contantS{
+    width: 1000px; ;
+    clear: both;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    background-color: rgb(250, 145, 75);
+
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #999;
+  }
+
+  imgs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+
+
+
+  }
